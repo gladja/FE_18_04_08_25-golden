@@ -4,3 +4,28 @@
     --header-text-btn-img: #FED136;
     --main-text: #777777;
 }
+
+ul {
+    list-style: none;
+}
+
+.header a {
+    color: var(--header-text-btn-img);
+    text-decoration: none;
+}
+
+.header-logo {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 36px;
+  line-height: 1.14;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+
+.header-nav {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 2.93;
+    font-weight: 400;
+}
