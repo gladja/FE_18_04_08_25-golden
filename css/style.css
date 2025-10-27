@@ -5,9 +5,6 @@
     --main-text: #777777;
 }
 
-ul {
-    list-style: none;
-}
 
 .header a {
     color: var(--header-text-btn-img);

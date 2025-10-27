@@ -10,7 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -63,10 +70,33 @@
       <section class="contact">
         <h2 class="contact-title">CONTACT US</h2>
         <form class="contact-form" action="">
-          <input class="contact-name" type="text" placeholder="YOUR NAME *" required name="name">
-          <input class="contact-email" type="email" placeholder="YOUR E-MAIL *" required name="mail">
-          <input class="contact-subject" type="text" placeholder="SUBJECT" name="subject">
-          <textarea class="contact-message" name="message" id="" placeholder="YOUR MESSAGE *" required></textarea>
+          <input
+            class="contact-name"
+            type="text"
+            placeholder="YOUR NAME *"
+            required
+            name="name"
+          />
+          <input
+            class="contact-email"
+            type="email"
+            placeholder="YOUR E-MAIL *"
+            required
+            name="mail"
+          />
+          <input
+            class="contact-subject"
+            type="text"
+            placeholder="SUBJECT"
+            name="subject"
+          />
+          <textarea
+            class="contact-message"
+            name="message"
+            id=""
+            placeholder="YOUR MESSAGE *"
+            required
+          ></textarea>
           <button class="contact-btn" type="submit">SEND MESSAGE</button>
         </form>
       </section>
